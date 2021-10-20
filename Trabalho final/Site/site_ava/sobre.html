@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<title>Agencia de Viagens Aerias AVA</title>
+		<link href="css/estilo.css" type="text/css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<div id="container">
+			<div>
+				<img src="imagem/banner.png" align="center" width="1000" height="360"/>
+			</div>
+			<div id="menu">
+				<a href="index.html">Home</a> |
+				<a href="lugares.html">Lugares</a> |
+				<a href="sobre.html">Sobre</a> | 
+				<a href="contato.html">Contato</a>
+			</div>
+			<div class="conteudo">
+				<h1>AVA</h1>	
+			</div>
+			<div class="conteudo">
+				</ul>
+				<h3>Sobre nós:</h3>
+				Um Pacote de Viagens para chamar de seu! A AVA levanta a bandeira de que Viajar é incrível, e com liberdade de escolha torna-se ainda melhor. Por este motivo a AVA reserva este espaço para que você possa montar um pacote diferenciado , que tenha como principal característica sua autonomia. Os Pacotes AVA oferecem para você o fundamental para sua viagem: Passagem Aérea, traslado, hotel e como bons anfitriões, escolhemos o melhor dia para apresentar a você os principais pontos turísticos da cidade. É muito simples encontrar um Pacote perfeito para você: Basta inserir seu local de origem e destino , a melhor data para sua viagem, a quantidade de pessoas e clicar em Buscar. Pronto! Você verá as melhores opções de pacotes de viagem, com ótimos preços e condições. Confira, e agende sua viagem!
+				
+				<table>
+					<tr>
+						<td><img src="imagem/avião1.jpg" class="tamanho" /></td>
+						<td><img src="imagem/avião2.jpg" class="tamanho"/></td>
+						<td><img src="imagem/por dentro1.jpg" class="tamanho"/></td>
+						<td><img src="imagem/por dentro2.jpg" class="tamanho"/></td>
+					</tr>
+					
+				<?php
+				&host = "localhost";
+				&database = "ava"
+				&usuario = "root";
+				&senha = "senha";​​
+				&conaxao = MySql _connect(&host, &usuario, &senha)
+				MySql_select_db(&database, &conexao);?>
+				
+				</table>
+			</div>
+		</div>
+		<div class="rodape" align="center">
+				Todos os Direitos Reservados - RD DEDIGNER®
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,136 @@
+﻿.banner {
+	height: 300px;
+	width: 1000px;
+	text-align: center;
+	position:relative;
+}
+
+.menu {
+	height: 35px;
+	width: 1024px;
+	background:#444;
+	font-size:30px;
+	position:relative;
+	padding:0px;
+	
+}
+
+.menu table{
+	width:1024px;
+	height: 35px;
+	padding:0px;
+	border: 0px;
+	border-spacing:0px;
+}
+
+.menu td{
+	text-align:center;
+	padding:0px;
+	height:35px;
+	width:1024px;
+	border:0px;
+}
+
+.menu td:hover{
+	background:#555;
+	padding:0px;
+	height:35px;
+	width:1024px;
+	border:0px;
+	
+}
+
+.conteudo {
+	height: auto;
+	width: 1024px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: normal;
+	clear: none;
+	text-align: center;
+	background-color: #000;
+	float:left;
+}
+
+.conteudotrailer {
+	height: auto;
+	width: 1024px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #F00;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: normal;
+	clear: none;
+	text-align: center;
+	background-color: #000;
+	float:left;
+}
+
+.conteudofotos {
+	height: auto;
+	width: 1024px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: normal;
+	clear: none;
+	text-align: center;
+	background-color: #000;
+	float:left;
+	border:20px;
+}
+
+
+.conteudo table{
+	padding:50px;
+}
+
+
+
+.rodape {
+	height: auto;
+	width: 1024px;
+	text-align: center;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #222;
+	position:relative;
+	float:left;
+}
+
+a:link {
+	text-decoration: none;
+	color:#fff
+}
+body {
+	margin-top: 0px;
+	background-image: url(deadpool.jpg);
+	background-repeat: repeat;
+	margin-left: auto;
+	height: auto;
+	width: 1024px;
+	margin-right: auto;
+	background-color: #888;
+}
+a:visited {
+	text-decoration: none;
+	color:#fff	
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}

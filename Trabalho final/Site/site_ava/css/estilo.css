@@ -1,0 +1,52 @@
+body{
+	background: #000;
+	color: #fff;
+}
+#menu{
+	/*Definindo o tamanho*/
+	width: 1000px; /*Largura*/
+	height: 35px; /*Altura*/
+	/*Alinhamento do Texto*/
+	text-align: center;
+	/*Tamanho do Texto*/
+	font-size: 45px;
+	/*Cor do Texto*/
+	color: red;
+	/*Trocando a Fonte do Texto*/
+	font-family: Verdana;
+}
+#container{
+	/*Deixando no meio da página*/
+	margin: 0 auto;
+	/*Definindo o tamanho*/
+	width: 1000px; /*Largura*/
+	height: 90; /*Altura*/
+}
+
+.conteudo{
+	/*Definindo o tamanho*/
+	width: 1000px; /*Largura*/
+	height: 90; /*Altura*/
+}
+.rodape{
+	/*Definindo o tamanho*/
+	width: 1000px; /*Largura*/
+	height: 90px; /*Altura*/
+	/*Alinhamento*/
+	text-align: center; /*Direita*/
+}
+.tamanho{
+	width: 200px; /*Largura*/
+	height: px; /*Altura*/
+	margin: 5px; /*espaço*/
+	
+}
+.pqueijo{
+	/*Espaço entre a imagem e texto*/
+	margin-right: 50px;
+}
+.mapa{
+	/*Definindo o tamanho*/
+	width: 1000px; /*Largura*/
+	height: 400px; /*Altura*/
+}

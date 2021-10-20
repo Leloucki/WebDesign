@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DR - contato</title>
+<link href="estilo/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<header>
+	<div class="banner">
+		<img src="banner.jpg"/>
+	</div>
+	</header>
+	
+	<nav>
+		<div class="menu" width="40px">
+			<table>
+				<tr>
+				<td><a href="index.html">Home</a></td>
+				<td><a href="sobre.html">Sobre</a></td>
+				<td><a href="portifolio.html">Portifólio</a></td>
+				<td><a href="contato.html">Contato</a></td>
+				</tr>
+			</table>
+		</div>
+	</nav>
+	
+	<section>
+		<div class="conteudo">
+		
+			<br></br>
+		
+				<form action="cadastrar.php" method="post" enctype="multipart/form-data" name="cadastrar" id="cadastrar">
+		
+				<strong>Nome:</strong> <input type="text" name="nome" id="nome"> <br> </br>
+	
+					<strong>E-Mail:</strong> <input type="email" name="email" id="email"> <br> </br>
+	
+					<strong>Como nos conheceu?</strong>
+						<select type="list" name="knew" id="knew"> 
+							<option value="face">Pelo Facebook</option>
+							<option value="amigo">Inidicação de amigo</option>
+							<option value="site">Pelo Site</option>
+						</select>
+				
+				<br> </br>
+				
+					<strong>Mensagem:</strong> <br />
+						<textarea rows="10" cols="50" name="mensagem" id="mensagem"></textarea> <br> </br>
+					
+					<input type="submit" name="cadastrar" value="Enviar" onClick="verificar_dados()"/>
+					<input type="reset" value="Limpar"/>
+			
+				<br> </br>
+				
+	</form>
+	
+		
+		</div>
+	</section>
+	
+	<footer>
+		<div class="rodape">Todos os Direitos Reservados à Desing Rider</div>
+		
+		
+	</footer>
+	
+
+</body>
+
+</html>

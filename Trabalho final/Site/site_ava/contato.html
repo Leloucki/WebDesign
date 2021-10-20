@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Agencia de Viagens Aerias AVA</title>
+		<link href="css/estilo.css" type="text/css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<div id="container">
+			<div>
+				<img src="imagem/banner.png" align="center" width="1000" height="360"/>
+			</div>
+			<div id="menu">
+				<a href="index.html">Home</a> |
+				<a href="lugares.html">Lugares</a> |
+				<a href="sobre.html">Sobre</a> | 
+				<a href="contato.html">Contato</a>
+			</div>
+			<div class="conteudo">
+				<h1>Cadastro</h1>
+				<form action="sucesso.html" method="get">
+					<strong>Nome: </strong>
+						<input type="text"><br />
+					<strong>E-mail: </strong>
+						<input type="text"><br />
+					<strong>Telefone: </strong>
+						<input type="text"><br />
+					<strong>Senha: </strong>
+						<input type="password"><br />
+					<strong>Confirme: </strong>
+						<input type="password"><br />
+					<strong>Qual Pacote você deseja?</strong><br />
+						<select type="list">
+							<option>Pacote 1</option>
+							<option>Pacote 2</option>
+							<option>Pacote 3</option>
+							<option>Pacote 4</option>
+							<option>Pacote 5</option>
+						</select><br />
+					<strong>Número do Cartão:</strong>
+						<input type="text"><br />
+					<strong>Senha:</senha>
+						<input type="password"><br />
+					<strong>Como nos conheçeu?</strong><br />
+						<select type="list">
+							<option>Pelo Site</option>
+							<option>Por Indicação</option>
+							<option>Pelo Facebook</option>
+							<option>Cartáz</option>
+						</select>
+					<strong>Deixe o seu Depoimento sobre nós</strong><br />
+						<textarea rows="15" cols="50"></textarea>
+						<input type="submit" value="Enviar" onClick="verificar_dados()" />
+						<input type="reset" value="Cancelar" />
+				</form>	
+			<div/>
+			<?php
+			$host = "localhost";
+			$database = "ava";
+			$usuario = "root";
+			$senha = "";
+			$conexao = MySql_connect($host),($usuario),($senha)
+			MySql_select_db($database,$conexao);
+			?>
+		<div/>
+		<div class="rodape" align="center">
+				Todos os Direitos Reservados - DR Design Rider®
+		</div>
+	</body>
+</html>
